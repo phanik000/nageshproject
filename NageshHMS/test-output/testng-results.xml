@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-02-01T05:27:17Z" name="Default suite" finished-at="2019-02-01T05:27:34Z" duration-ms="16832">
+    <groups>
+    </groups>
+    <test started-at="2019-02-01T05:27:17Z" name="Default test" finished-at="2019-02-01T05:27:34Z" duration-ms="16832">
+      <class name="com.registration.RegTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.registration.RegTest@175b9425]" started-at="2019-02-01T05:27:17Z" name="beforeTest" finished-at="2019-02-01T05:27:25Z" duration-ms="7524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="VerifyingLoginDetailsTest(java.lang.String, java.lang.String)[pri:1, instance:com.registration.RegTest@175b9425]" started-at="2019-02-01T05:27:26Z" name="VerifyingLoginDetailsTest" data-provider="DataDriven" finished-at="2019-02-01T05:27:27Z" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyingLoginDetailsTest -->
+        <test-method signature="VerifyingLoginDetailsTest(java.lang.String, java.lang.String)[pri:1, instance:com.registration.RegTest@175b9425]" started-at="2019-02-01T05:27:27Z" name="VerifyingLoginDetailsTest" data-provider="DataDriven" finished-at="2019-02-01T05:27:27Z" duration-ms="400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vishal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyingLoginDetailsTest -->
+        <test-method signature="VerifyingLoginDetailsTest(java.lang.String, java.lang.String)[pri:1, instance:com.registration.RegTest@175b9425]" started-at="2019-02-01T05:27:27Z" name="VerifyingLoginDetailsTest" data-provider="DataDriven" finished-at="2019-02-01T05:27:27Z" duration-ms="420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyingLoginDetailsTest -->
+        <test-method signature="VerifyingLoginDetailsTest(java.lang.String, java.lang.String)[pri:1, instance:com.registration.RegTest@175b9425]" started-at="2019-02-01T05:27:27Z" name="VerifyingLoginDetailsTest" data-provider="DataDriven" finished-at="2019-02-01T05:27:28Z" duration-ms="925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyingLoginDetailsTest -->
+        <test-method signature="VerifyingRegistrationDetailsTest()[pri:2, instance:com.registration.RegTest@175b9425]" started-at="2019-02-01T05:27:28Z" name="VerifyingRegistrationDetailsTest" finished-at="2019-02-01T05:27:33Z" duration-ms="4223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyingRegistrationDetailsTest -->
+        <test-method signature="VerifyingSearchRegDetailsTest()[pri:3, instance:com.registration.RegTest@175b9425]" started-at="2019-02-01T05:27:33Z" name="VerifyingSearchRegDetailsTest" finished-at="2019-02-01T05:27:34Z" duration-ms="1090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyingSearchRegDetailsTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.registration.RegTest@175b9425]" started-at="2019-02-01T05:27:34Z" name="afterTest" finished-at="2019-02-01T05:27:34Z" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.registration.RegTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
